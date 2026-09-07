@@ -1,4 +1,4 @@
-# Arthur Bates Portfolio — V2
+# Arthur Bates Portfolio 
 
 Personal developer portfolio for Arthur Bates.
 
