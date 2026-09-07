@@ -1,3 +1,4 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,57 +6,130 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Arthur Bates — Student developer, programmer, and robotics student at Randolph High School.">
   <title>Arthur Bates | Portfolio</title>
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap"
+    rel="stylesheet"
+  >
+
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+
   <div class="noise"></div>
   <div class="glow glow-one"></div>
   <div class="glow glow-two"></div>
 
   <header>
     <nav class="container nav">
-      <a href="#home" class="brand">ARTHUR<span>/</span>BATES</a>
+
+      <a href="#home" class="brand">
+        ARTHUR<span>/</span>BATES
+      </a>
+
       <div class="nav-links">
         <a href="#about">About</a>
         <a href="#coursework">Coursework</a>
         <a href="#projects">Projects</a>
+        <a href="#future-projects">Future Project</a>
         <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
       </div>
-      <a class="github-button" href="https://github.com/ArthurBates" target="_blank" rel="noreferrer">GitHub ↗</a>
+
+      <a
+        class="github-button"
+        href="https://github.com/ArthurBates"
+        target="_blank"
+        rel="noreferrer"
+      >
+        GitHub ↗
+      </a>
+
     </nav>
   </header>
 
+
   <main>
+
+
+    <!-- HERO -->
+
     <section id="home" class="container hero">
+
       <div class="hero-left reveal">
-        <div class="status"><span></span> Student Developer • Randolph, NJ</div>
-        <h1>Building, breaking,<br><em>and figuring it out.</em></h1>
+
+        <div class="status">
+          <span></span>
+          Student Developer • Randolph, NJ
+        </div>
+
+        <h1>
+          Building, breaking,<br>
+          <em>and figuring it out.</em>
+        </h1>
+
         <p class="hero-copy">
           I'm Arthur Bates, a high school student interested in software development,
           robotics, cybersecurity, and building interactive projects from scratch.
         </p>
 
         <div class="hero-buttons">
-          <a class="button primary" href="#projects">See my projects</a>
-          <a class="button ghost" href="mailto:bates@ourfamilybates.com">Get in touch</a>
+
+          <a class="button primary" href="#projects">
+            See my projects
+          </a>
+
+          <a
+            class="button ghost"
+            href="mailto:bates@ourfamilybates.com"
+          >
+            Get in touch
+          </a>
+
         </div>
 
         <div class="quick-info">
-          <div><span>School</span><strong>Randolph High School</strong></div>
-          <div><span>Focus</span><strong>Software + Robotics</strong></div>
-          <div><span>GitHub</span><strong>@ArthurBates</strong></div>
+
+          <div>
+            <span>School</span>
+            <strong>Randolph High School</strong>
+          </div>
+
+          <div>
+            <span>Focus</span>
+            <strong>Software + Robotics</strong>
+          </div>
+
+          <div>
+            <span>GitHub</span>
+            <strong>@ArthurBates</strong>
+          </div>
+
         </div>
+
       </div>
 
+
       <div class="hero-right reveal">
+
         <div class="code-window">
+
           <div class="code-top">
-            <div class="dots"><i></i><i></i><i></i></div>
+
+            <div class="dots">
+              <i></i>
+              <i></i>
+              <i></i>
+            </div>
+
             <span>arthur.js</span>
+
           </div>
+
           <pre><code><span class="line">01</span> <b>const</b> arthur = {
 <span class="line">02</span>   school: <s>"Randolph HS"</s>,
 <span class="line">03</span>   interests: [
@@ -67,212 +141,797 @@
 <span class="line">09</span>   currentlyLearning: <s>"Java"</s>,
 <span class="line">10</span>   mindset: <s>"build first"</s>
 <span class="line">11</span> };</code></pre>
+
         </div>
+
       </div>
+
     </section>
+
+
+
+    <!-- ABOUT -->
 
     <section id="about" class="container section reveal">
-      <div class="section-kicker">01 — ABOUT</div>
+
+      <div class="section-kicker">
+        01 — ABOUT
+      </div>
+
       <div class="split">
-        <h2>I like turning ideas into things I can actually use.</h2>
+
+        <h2>
+          I like turning ideas into things I can actually use.
+        </h2>
+
         <div class="prose">
+
           <p>
-            I'm a student developer at Randolph High School in New Jersey. Most of what
-            interests me sits somewhere between programming and problem-solving: building
-            software, creating systems in games, working with robotics, and learning how
-            computers behave under the hood.
+            I'm a student developer at Randolph High School in New Jersey.
+            Most of what interests me sits somewhere between programming and
+            problem-solving: building software, creating systems in games,
+            working with robotics, and learning how computers behave under the hood.
           </p>
+
           <p>
             I learn best by making things. Whether I'm writing a Python program for class,
-            scripting a Roblox system, working through Java in AP Computer Science A, or
-            exploring cybersecurity, I like projects where I can test an idea, find what
-            doesn't work, and improve it.
+            scripting a Roblox system, working through Java in AP Computer Science A,
+            or exploring cybersecurity, I like projects where I can test an idea,
+            find what doesn't work, and improve it.
           </p>
+
           <p>
             I'm still early in my development journey, and that's part of what makes it
-            exciting. I'm constantly adding new tools, languages, and projects to what I
-            can build.
+            exciting. I'm constantly adding new tools, languages, and projects to what
+            I can build.
           </p>
+
         </div>
+
       </div>
+
     </section>
+
+
+
+    <!-- COURSEWORK -->
 
     <section id="coursework" class="container section reveal">
-      <div class="section-kicker">02 — COURSEWORK</div>
-      <div class="section-title-row">
-        <h2>Classes shaping what I build.</h2>
-        <p>Technical coursework at Randolph High School.</p>
+
+      <div class="section-kicker">
+        02 — COURSEWORK
       </div>
+
+      <div class="section-title-row">
+
+        <h2>
+          Classes shaping what I build.
+        </h2>
+
+        <p>
+          Technical coursework at Randolph High School.
+        </p>
+
+      </div>
+
 
       <div class="course-grid">
-        <article class="course">
-          <div class="course-number">01</div>
-          <div>
-            <h3>AP Computer Science Principles</h3>
-            <p>Programming fundamentals, algorithms, data, computing systems, and the broader impact of technology.</p>
-          </div>
-        </article>
+
 
         <article class="course">
-          <div class="course-number">02</div>
-          <div>
-            <h3>AP Computer Science A</h3>
-            <p>Object-oriented programming and problem solving in Java, with a focus on writing and understanding structured code.</p>
+
+          <div class="course-number">
+            01
           </div>
+
+          <div>
+
+            <h3>
+              AP Computer Science Principles
+            </h3>
+
+            <p>
+              Programming fundamentals, algorithms, data, computing systems,
+              and the broader impact of technology.
+            </p>
+
+          </div>
+
         </article>
 
-        <article class="course">
-          <div class="course-number">03</div>
-          <div>
-            <h3>Robotics</h3>
-            <p>Hands-on engineering, design, programming, iteration, and working with physical systems.</p>
-          </div>
-        </article>
+
 
         <article class="course">
-          <div class="course-number">04</div>
-          <div>
-            <h3>Robotics II Honors</h3>
-            <p>More advanced robotics work focused on building, programming, troubleshooting, and refining technical systems.</p>
+
+          <div class="course-number">
+            02
           </div>
+
+          <div>
+
+            <h3>
+              AP Computer Science A
+            </h3>
+
+            <p>
+              Object-oriented programming and problem solving in Java,
+              with a focus on writing and understanding structured code.
+            </p>
+
+          </div>
+
         </article>
+
+
+
+        <article class="course">
+
+          <div class="course-number">
+            03
+          </div>
+
+          <div>
+
+            <h3>
+              Robotics
+            </h3>
+
+            <p>
+              Hands-on engineering, design, programming, iteration,
+              and working with physical systems.
+            </p>
+
+          </div>
+
+        </article>
+
+
+
+        <article class="course">
+
+          <div class="course-number">
+            04
+          </div>
+
+          <div>
+
+            <h3>
+              Robotics II Honors
+            </h3>
+
+            <p>
+              More advanced robotics work focused on building,
+              programming, troubleshooting, and refining technical systems.
+            </p>
+
+          </div>
+
+        </article>
+
+
 
         <article class="course wide">
-          <div class="course-number">05</div>
-          <div>
-            <h3>Cybersecurity</h3>
-            <p>Foundations of digital security, networks, system vulnerabilities, defensive thinking, and safe computing practices.</p>
+
+          <div class="course-number">
+            05
           </div>
+
+          <div>
+
+            <h3>
+              Cybersecurity
+            </h3>
+
+            <p>
+              Foundations of digital security, networks, system vulnerabilities,
+              defensive thinking, and safe computing practices.
+            </p>
+
+          </div>
+
         </article>
+
+
       </div>
+
     </section>
 
+
+
+    <!-- PROJECTS -->
+
     <section id="projects" class="container section reveal">
-      <div class="section-kicker">03 — PROJECTS</div>
-      <div class="section-title-row">
-        <h2>Things I've worked on.</h2>
-        <a href="https://github.com/ArthurBates" target="_blank" rel="noreferrer">github.com/ArthurBates ↗</a>
+
+      <div class="section-kicker">
+        03 — PROJECTS
       </div>
 
+      <div class="section-title-row">
+
+        <h2>
+          Things I've worked on.
+        </h2>
+
+        <a
+          href="https://github.com/ArthurBates"
+          target="_blank"
+          rel="noreferrer"
+        >
+          github.com/ArthurBates ↗
+        </a>
+
+      </div>
+
+
       <div class="project-grid">
+
+
+        <!-- BITANIME -->
+
         <article class="project featured">
+
           <div class="project-top">
-            <span class="project-type">GAME DEVELOPMENT</span>
-            <span>01</span>
+
+            <span class="project-type">
+              GAME DEVELOPMENT
+            </span>
+
+            <span>
+              01
+            </span>
+
           </div>
+
+
           <div class="project-body">
-            <p class="project-label">Featured build</p>
-            <h3>BitAnime</h3>
-            <p>
-              A BitLife-style anime life simulator concept built in Roblox, with
-              save slots, progression, age-up systems, timed rewards, daily spins,
-              persistent player data, and custom UI.
+
+            <p class="project-label">
+              Featured build
             </p>
+
+            <h3>
+              BitAnime
+            </h3>
+
+            <p>
+              A BitLife-style anime life simulator concept built in Roblox,
+              with save slots, progression, age-up systems, timed rewards,
+              daily spins, persistent player data, and custom UI.
+            </p>
+
             <div class="chips">
-              <span>Lua</span><span>Roblox Studio</span><span>UI Systems</span><span>DataStores</span>
+              <span>Lua</span>
+              <span>Roblox Studio</span>
+              <span>UI Systems</span>
+              <span>DataStores</span>
             </div>
+
           </div>
+
         </article>
 
+
+
+        <!-- FINANCE TRACKER -->
+
         <article class="project">
+
           <div class="project-top">
-            <span class="project-type">PYTHON</span>
-            <span>02</span>
+
+            <span class="project-type">
+              PYTHON
+            </span>
+
+            <span>
+              02
+            </span>
+
           </div>
+
+
           <div class="project-body">
-            <p class="project-label">AP CSP project</p>
-            <h3>Personal Finance Tracker</h3>
+
+            <p class="project-label">
+              AP CSP project
+            </p>
+
+            <h3>
+              Personal Finance Tracker
+            </h3>
+
             <p>
               A Python-based project designed to track personal financial data
               and turn basic inputs into useful summaries.
             </p>
+
             <div class="chips">
-              <span>Python</span><span>Logic</span><span>Data</span>
+              <span>Python</span>
+              <span>Logic</span>
+              <span>Data</span>
             </div>
+
           </div>
+
         </article>
 
+
+
+        <!-- ROBLOX SYSTEMS -->
+
         <article class="project">
+
           <div class="project-top">
-            <span class="project-type">ROBLOX / LUA</span>
-            <span>03</span>
+
+            <span class="project-type">
+              ROBLOX / LUA
+            </span>
+
+            <span>
+              03
+            </span>
+
           </div>
+
+
           <div class="project-body">
-            <p class="project-label">Systems collection</p>
-            <h3>Roblox Gameplay Systems</h3>
-            <p>
-              A collection of gameplay systems I've experimented with, including
-              checkpoints, progression interfaces, gamepasses, multiplayer logic,
-              combat mechanics, and persistent data.
+
+            <p class="project-label">
+              Systems collection
             </p>
+
+            <h3>
+              Roblox Gameplay Systems
+            </h3>
+
+            <p>
+              A collection of gameplay systems I've experimented with,
+              including checkpoints, progression interfaces, gamepasses,
+              multiplayer logic, combat mechanics, and persistent data.
+            </p>
+
             <div class="chips">
-              <span>Lua</span><span>Game Logic</span><span>Client / Server</span>
+              <span>Lua</span>
+              <span>Game Logic</span>
+              <span>Client / Server</span>
             </div>
+
           </div>
+
         </article>
 
+
+
+        <!-- PORTFOLIO -->
+
         <article class="project">
+
           <div class="project-top">
-            <span class="project-type">WEB</span>
-            <span>04</span>
+
+            <span class="project-type">
+              WEB
+            </span>
+
+            <span>
+              04
+            </span>
+
           </div>
+
+
           <div class="project-body">
-            <p class="project-label">You're looking at it</p>
-            <h3>Developer Portfolio</h3>
+
+            <p class="project-label">
+              You're looking at it
+            </p>
+
+            <h3>
+              Developer Portfolio
+            </h3>
+
             <p>
               A responsive personal portfolio built to organize my coursework,
               projects, skills, and future work in one place.
             </p>
+
             <div class="chips">
-              <span>HTML</span><span>CSS</span><span>JavaScript</span><span>GitHub Pages</span>
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+              <span>GitHub Pages</span>
             </div>
-            <a class="inline-link" href="https://github.com/ArthurBates/portfolio" target="_blank" rel="noreferrer">View repository ↗</a>
+
+            <a
+              class="inline-link"
+              href="https://github.com/ArthurBates/portfolio"
+              target="_blank"
+              rel="noreferrer"
+            >
+              View repository ↗
+            </a>
+
           </div>
+
         </article>
+
+
       </div>
+
     </section>
+
+
+
+    <!-- FUTURE PROJECT -->
+
+    <section id="future-projects" class="container section reveal">
+
+      <div class="section-kicker">
+        04 — FUTURE PROJECT
+      </div>
+
+      <div class="section-title-row">
+
+        <h2>
+          What I'm building next.
+        </h2>
+
+        <p>
+          A long-term project focused on servers, networking,
+          Linux, virtualization, and cybersecurity.
+        </p>
+
+      </div>
+
+
+      <article class="project featured home-lab">
+
+        <div class="project-top">
+
+          <span class="project-type">
+            PLANNING
+          </span>
+
+          <span>
+            01
+          </span>
+
+        </div>
+
+
+        <div class="project-body">
+
+          <p class="project-label">
+            Next major project
+          </p>
+
+          <h3>
+            Personal Home Lab
+          </h3>
+
+          <p>
+            I plan to build a personal home lab to gain hands-on experience
+            with servers, virtualization, Linux, networking, self-hosting,
+            and cybersecurity.
+          </p>
+
+          <p>
+            The goal is to create an environment where I can experiment with
+            technologies outside of a classroom, host my own services,
+            manage virtual machines, and learn how real systems and networks
+            are configured.
+          </p>
+
+
+          <div class="chips">
+
+            <span>Proxmox</span>
+            <span>Linux</span>
+            <span>Docker</span>
+            <span>Networking</span>
+            <span>Virtual Machines</span>
+            <span>Cybersecurity</span>
+            <span>Self-Hosting</span>
+
+          </div>
+
+
+          <div class="homelab-roadmap">
+
+
+            <div class="roadmap-item">
+
+              <span>
+                01
+              </span>
+
+              <strong>
+                Hardware
+              </strong>
+
+              <p>
+                Choose the server hardware and plan the physical setup.
+              </p>
+
+            </div>
+
+
+
+            <div class="roadmap-item">
+
+              <span>
+                02
+              </span>
+
+              <strong>
+                Virtualization
+              </strong>
+
+              <p>
+                Install Proxmox and begin creating virtual machines.
+              </p>
+
+            </div>
+
+
+
+            <div class="roadmap-item">
+
+              <span>
+                03
+              </span>
+
+              <strong>
+                Linux
+              </strong>
+
+              <p>
+                Deploy and manage Linux servers and services.
+              </p>
+
+            </div>
+
+
+
+            <div class="roadmap-item">
+
+              <span>
+                04
+              </span>
+
+              <strong>
+                Containers
+              </strong>
+
+              <p>
+                Learn Docker and deploy self-hosted applications.
+              </p>
+
+            </div>
+
+
+
+            <div class="roadmap-item">
+
+              <span>
+                05
+              </span>
+
+              <strong>
+                Networking
+              </strong>
+
+              <p>
+                Configure the network, DNS, firewalls, and remote access.
+              </p>
+
+            </div>
+
+
+
+            <div class="roadmap-item">
+
+              <span>
+                06
+              </span>
+
+              <strong>
+                Cybersecurity Lab
+              </strong>
+
+              <p>
+                Create isolated virtual environments for safely practicing
+                cybersecurity and networking concepts.
+              </p>
+
+            </div>
+
+
+          </div>
+
+        </div>
+
+      </article>
+
+    </section>
+
+
+
+    <!-- SKILLS -->
 
     <section id="skills" class="container section reveal">
-      <div class="section-kicker">04 — SKILLS</div>
+
+      <div class="section-kicker">
+        05 — SKILLS
+      </div>
+
+
       <div class="skills-layout">
+
+
         <div>
-          <h2>What I'm learning & using.</h2>
+
+          <h2>
+            What I'm learning & using.
+          </h2>
+
           <p class="muted-copy">
-            I care more about being able to build with a tool than collecting a long list of buzzwords.
+            I care more about being able to build with a tool
+            than collecting a long list of buzzwords.
           </p>
+
         </div>
+
+
 
         <div class="skill-list">
-          <div class="skill-row"><span>Languages</span><strong>Python • Java • Lua • JavaScript • HTML • CSS</strong></div>
-          <div class="skill-row"><span>Development</span><strong>Git • GitHub • VS Code • Roblox Studio</strong></div>
-          <div class="skill-row"><span>Computer Science</span><strong>Algorithms • OOP • Debugging • Data • Client/Server Logic</strong></div>
-          <div class="skill-row"><span>Engineering</span><strong>Robotics • Prototyping • Troubleshooting • Iteration</strong></div>
-          <div class="skill-row"><span>Security</span><strong>Cybersecurity Fundamentals • Networks • Defensive Security Concepts</strong></div>
+
+
+          <div class="skill-row">
+
+            <span>
+              Languages
+            </span>
+
+            <strong>
+              Python • Java • Lua • JavaScript • HTML • CSS
+            </strong>
+
+          </div>
+
+
+
+          <div class="skill-row">
+
+            <span>
+              Development
+            </span>
+
+            <strong>
+              Git • GitHub • VS Code • Roblox Studio
+            </strong>
+
+          </div>
+
+
+
+          <div class="skill-row">
+
+            <span>
+              Computer Science
+            </span>
+
+            <strong>
+              Algorithms • OOP • Debugging • Data • Client/Server Logic
+            </strong>
+
+          </div>
+
+
+
+          <div class="skill-row">
+
+            <span>
+              Engineering
+            </span>
+
+            <strong>
+              Robotics • Prototyping • Troubleshooting • Iteration
+            </strong>
+
+          </div>
+
+
+
+          <div class="skill-row">
+
+            <span>
+              Security
+            </span>
+
+            <strong>
+              Cybersecurity Fundamentals • Networks • Defensive Security Concepts
+            </strong>
+
+          </div>
+
+
         </div>
+
       </div>
+
     </section>
 
-    <section class="container section reveal">
+
+
+    <!-- CONTACT -->
+
+    <section id="contact" class="container section reveal">
+
       <div class="cta">
+
+
         <div>
-          <div class="section-kicker">05 — CONTACT</div>
-          <h2>Let's make something.</h2>
-          <p>For projects, collaboration, or just to get in touch.</p>
+
+          <div class="section-kicker">
+            06 — CONTACT
+          </div>
+
+          <h2>
+            Let's make something.
+          </h2>
+
+          <p>
+            For projects, collaboration, or just to get in touch.
+          </p>
+
         </div>
+
+
+
         <div class="cta-links">
-          <a href="mailto:bates@ourfamilybates.com">bates@ourfamilybates.com ↗</a>
-          <a href="mailto:gamerfirestar@outlook.com">gamerfirestar@outlook.com ↗</a>
-          <a href="https://github.com/ArthurBates" target="_blank" rel="noreferrer">GitHub ↗</a>
+
+          <a href="mailto:bates@ourfamilybates.com">
+            bates@ourfamilybates.com ↗
+          </a>
+
+          <a href="mailto:gamerfirestar@outlook.com">
+            gamerfirestar@outlook.com ↗
+          </a>
+
+          <a
+            href="https://github.com/ArthurBates"
+            target="_blank"
+            rel="noreferrer"
+          >
+            GitHub ↗
+          </a>
+
         </div>
+
+
       </div>
+
     </section>
+
+
   </main>
 
+
+
   <footer class="container">
-    <span>© <span id="year"></span> Arthur Bates</span>
-    <span>Built from scratch.</span>
+
+    <span>
+      © <span id="year"></span> Arthur Bates
+    </span>
+
+    <span>
+      Built from scratch.
+    </span>
+
   </footer>
 
+
   <script src="script.js"></script>
+
 </body>
 </html>
+```
