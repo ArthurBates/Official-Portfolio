@@ -1,6 +1,9 @@
 # Arthur Bates Portfolio 
 
-Personal developer portfolio for Arthur Bates.
+Personal developer portfolio - Using this mostly for college submissions. Seperate protfolio for development work.
+
+600k+ CCU 
+3b Visits
 
 ## Included
 - Responsive landing page
