@@ -14,3 +14,5 @@ Personal developer portfolio - Using this mostly for college submissions. Sepera
 - Skills section
 - Contact links
 - Scroll animations
+
+Made with a preset, customized by hand
